@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace ToDoList.Controllers
 {
     public class Home1 : Controller
@@ -8,7 +9,7 @@ namespace ToDoList.Controllers
       [HttpGet("/")]
       public ActionResult Index()
       {
-        return View(0);
+        return View();
       }
 
     }
